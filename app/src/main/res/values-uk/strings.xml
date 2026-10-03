@@ -4,6 +4,132 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Галерея</string>
+    <string name="app_permissions_toast">Користувач не надав дозволів.</string>
+    <string name="reels_title">Reels</string>
+    <string name="albums_title">Альбоми</string>
+    <string name="categories_title">Категорії</string>
+    <string name="library_title">Бібліотека</string>
+    <string name="album_favorites">Обране</string>
+    <string name="album_trash">Кошик</string>
+    <string name="album_reels">Reels</string>
+    <string name="album_photos">Фото</string>
+    <string name="album_videos">Відео</string>
+    <plurals name="album_thumbnail_items">
+        <item quantity="one">%d елемент</item>
+        <item quantity="few">%d елементи</item>
+        <item quantity="many">%d елементів</item>
+        <item quantity="other">%d елемента</item>
+    </plurals>
+    <plurals name="delete_file_forever_confirm_message">
+        <item quantity="one">Ви впевнені, що хочете назавжди видалити %d файл?</item>
+        <item quantity="few">Ви впевнені, що хочете назавжди видалити %d файли?</item>
+        <item quantity="many">Ви впевнені, що хочете назавжди видалити %d файлів?</item>
+        <item quantity="other">Ви впевнені, що хочете назавжди видалити %d файлу?</item>
+    </plurals>
+    <plurals name="delete_file_forever_successful">
+        <item quantity="one">%d файл видалено назавжди</item>
+        <item quantity="few">%d файли видалено назавжди</item>
+        <item quantity="many">%d файлів видалено назавжди</item>
+        <item quantity="other">%d файлу видалено назавжди</item>
+    </plurals>
+    <plurals name="delete_file_forever_unsuccessful">
+        <item quantity="one">Не вдалося назавжди видалити %d файл</item>
+        <item quantity="few">Не вдалося назавжди видалити %d файли</item>
+        <item quantity="many">Не вдалося назавжди видалити %d файлів</item>
+        <item quantity="other">Не вдалося назавжди видалити %d файлу</item>
+    </plurals>
+    <plurals name="move_file_to_trash_confirm_message">
+        <item quantity="one">Ви впевнені, що хочете перемістити %d файл до кошика?</item>
+        <item quantity="few">Ви впевнені, що хочете перемістити %d файли до кошика?</item>
+        <item quantity="many">Ви впевнені, що хочете перемістити %d файлів до кошика?</item>
+        <item quantity="other">Ви впевнені, що хочете перемістити %d файлу до кошика?</item>
+    </plurals>
+    <plurals name="move_file_to_trash_successful">
+        <item quantity="one">%d файл переміщено до кошика</item>
+        <item quantity="few">%d файли переміщено до кошика</item>
+        <item quantity="many">%d файлів переміщено до кошика</item>
+        <item quantity="other">%d файлу переміщено до кошика</item>
+    </plurals>
+    <plurals name="move_file_to_trash_unsuccessful">
+        <item quantity="one">Не вдалося перемістити %d файл до кошика</item>
+        <item quantity="few">Не вдалося перемістити %d файли до кошика</item>
+        <item quantity="many">Не вдалося перемістити %d файлів до кошика</item>
+        <item quantity="other">Не вдалося перемістити %d файлу до кошика</item>
+    </plurals>
+    <plurals name="restore_file_from_trash_confirm_message">
+        <item quantity="one">Ви впевнені, що хочете відновити %d файл із кошика?</item>
+        <item quantity="few">Ви впевнені, що хочете відновити %d файли з кошика?</item>
+        <item quantity="many">Ви впевнені, що хочете відновити %d файлів із кошика?</item>
+        <item quantity="other">Ви впевнені, що хочете відновити %d файлу з кошика?</item>
+    </plurals>
+    <plurals name="restore_file_from_trash_successful">
+        <item quantity="one">%d файл відновлено з кошика</item>
+        <item quantity="few">%d файли відновлено з кошика</item>
+        <item quantity="many">%d файлів відновлено з кошика</item>
+        <item quantity="other">%d файлу відновлено з кошика</item>
+    </plurals>
+    <plurals name="restore_file_from_trash_unsuccessful">
+        <item quantity="one">Не вдалося відновити %d файл із кошика</item>
+        <item quantity="few">Не вдалося відновити %d файли з кошика</item>
+        <item quantity="many">Не вдалося відновити %d файлів із кошика</item>
+        <item quantity="other">Не вдалося відновити %d файлу з кошика</item>
+    </plurals>
+    <string name="manage_media_permission_title">Дозвіл на керування медіафайлами</string>
+    <string name="manage_media_permission_message">Щоб зручніше працювати із зображеннями та відео, дозвольте застосунку керувати вашими медіафайлами</string>
+    <string name="media_info_unknown">Невідомо</string>
+    <string name="media_info_add_description_hint">Додати опис</string>
+    <string name="media_info_write_description_failed">Не вдалося змінити опис медіафайлу</string>
+    <string name="media_info_location_loading_placeholder">Завантаження…</string>
+    <string name="media_info_location_open_with">Переглянути місцезнаходження за допомогою</string>
+    <string name="intent_action_not_supported">Дія не підтримується</string>
+    <string name="intent_media_not_found">Медіафайл не знайдено</string>
+    <string name="intent_media_type_not_found">Тип медіафайлу не знайдено</string>
+    <string name="intent_media_type_not_supported">Тип медіафайлу не підтримується</string>
+    <string name="intent_no_system_wallpaper_cropper_available">У системі немає засобу обрізання</string>
+    <string name="intent_wallpaper_cannot_be_changed">Не вдалося змінити шпалери</string>
+    <string name="file_action_add_to_favorites">Додати до обраного</string>
     <string name="file_action_delete_forever">Видалити назавжди</string>
+    <string name="file_action_edit">Редагувати</string>
+    <string name="file_action_empty_trash">Очистити кошик</string>
+    <string name="file_action_information">Інформація</string>
+    <string name="file_action_move_to_trash">Перемістити до кошика</string>
+    <string name="file_action_remove_from_favorites">Видалити з обраного</string>
+    <string name="file_action_restore_from_trash">Відновити з кошика</string>
+    <string name="file_action_share">Поділитися</string>
+    <string name="file_action_use_as">Використати як</string>
+    <string name="file_action_undo_action">Скасувати</string>
+    <string name="no_media">Немає медіафайлів</string>
+    <plurals name="thumbnail_selection_count">
+        <item quantity="one">Вибрано %d</item>
+        <item quantity="few">Вибрано %d</item>
+        <item quantity="many">Вибрано %d</item>
+        <item quantity="other">Вибрано %d</item>
+    </plurals>
+    <string name="pick_a_photo">Вибрати фото</string>
+    <string name="pick_a_video">Вибрати відео</string>
+    <string name="pick_a_media">Вибрати медіафайл</string>
+    <string name="picker_done">Готово</string>
+    <string name="set_wallpaper_label">Шпалери</string>
+    <string name="set_wallpaper">Встановити як шпалери</string>
+    <string name="set_wallpaper_dialog_title">Застосувати шпалери</string>
+    <string name="set_wallpaper_home_screen">Головний екран</string>
+    <string name="set_wallpaper_lock_screen">Екран блокування</string>
+    <string name="set_wallpaper_both">Головний екран і екран блокування</string>
     <string name="warning_bin_time_period">Файли будуть видалені назавжди через 30 днів.</string>
+    <string name="motion_photo_show_video">Показати відео</string>
+    <string name="motion_photo_show_photo">Показати фото</string>
+    <string name="title_activity_settings">Налаштування</string>
+    <string name="general_header">Загальні</string>
+    <string name="video_header">Відео</string>
+    <string name="edge_tap_navigation_enable_title">Навігація торканням країв екрана</string>
+    <string name="edge_tap_navigation_enabled_description">Торкніться лівого або правого краю екрана, щоб перемикатися між медіафайлами</string>
+    <string name="double_tap_to_seek_enabled_title">Увімкнути перемотування подвійним дотиком</string>
+    <string name="double_tap_to_seek_enabled_description">Двічі торкніться лівої або правої частини відео, щоб перемотати назад або вперед</string>
+    <string name="double_tap_to_seek_seconds_title">Тривалість пропуску при подвійному дотику</string>
+    <string name="double_tap_to_seek_seconds_description">Кількість секунд, які буде пропущено при подвійному торканні відео</string>
+    <string name="hide_native_seek_buttons_title">Приховати стандартні кнопки перемотування</string>
+    <string name="hide_native_seek_buttons_description">Приховати кнопки перемотування назад і вперед на панелі керування відеоплеєром</string>
+    <string name="remember_video_playback_position_enabled_title">Запам\'ятовувати позицію відтворення</string>
+    <string name="remember_video_playback_position_enabled_description">Відновлювати відтворення відео з місця останньої зупинки</string>
 </resources>
